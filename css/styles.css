@@ -62,7 +62,7 @@ header {
 .menu {
   list-style: none;
   display: flex;
-  width: 261px;
+
   height: 24px;
 
   gap: 40px;
@@ -1024,7 +1024,7 @@ footer {
   }
   .menu {
     display: flex;
-    margin-left: 120px;
+    margin-left: 56px;
   }
   .open-menu {
     display: none;
@@ -1139,7 +1139,7 @@ footer {
     width: calc((100% - 120px) / 6);
   }
   header {
-    padding: 24px 156px 28px 156px;
+    padding: 24px 56px 28px 56px;
   }
   .contacts {
     display: flex;
