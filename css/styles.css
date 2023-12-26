@@ -252,7 +252,7 @@ header {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/garage.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1291,4 +1291,22 @@ footer {
 }
 .no-scroll {
   overflow: hidden;
+}
+.footer-contacts-item {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1.16;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #f4f4fd;
+}
+.footer-ul {
+  display: flex;
+  padding: 0;
+  gap: 16px;
+  margin: 0;
+  flex-direction: column;
 }
