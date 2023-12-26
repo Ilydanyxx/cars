@@ -207,8 +207,9 @@ header {
   left: 0px;
   top: 0px;
   margin: 0;
-  padding: 40px 32px 164px 32px;
-
+  padding-top: 8px;
+  padding: 16px 56px 164px 56px;
+  width: 360px;
   color: #f4f4fd;
   background: #4d5ae5;
 
@@ -1194,7 +1195,7 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 0;
-  margin-bottom: 284px;
+  margin-bottom: 16px;
   justify-content: left;
 }
 .modal-menu-item {
@@ -1310,4 +1311,16 @@ footer {
   gap: 16px;
   margin: 0;
   flex-direction: column;
+}
+
+.car-option {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.16;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #f4f4fd;
 }
