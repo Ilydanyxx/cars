@@ -373,15 +373,80 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="modal-name-text">ДЛЯ ЗАМОВЛЕННЯ</p>
-        <a class="modal-name modal-center" href="tel:+380982858805"
-                >+38 (098) 285-88-05</a
-              >
-              <a
-              class="modal-name modal-center"
-              href="mailto:autokyiv@gmail.com"
-              >autokyiv@gmail.com</a
+        <p class="modal-name">Залиште свої контакти і ми вам передзвонимо</p>
+        <form name="singup-form" autocomplete="on" action="">
+          <div class="center">
+            <div class="input-height">
+              <label class="modal-label" for="name">Ім'я</label>
+              <div class="input-wrap">
+                <input
+                  class="modal-input"
+                  id="name"
+                  name="user-name"
+                  type="text"
+                  autofocus
+                />
+                <svg class="modal-icon" width="18" height="18">
+                  <use href="./images/icons.svg#icon-profile1"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="input-height">
+              <label class="modal-label" for="tel">Телефон</label>
+              <div class="input-wrap">
+                <input
+                  class="modal-input"
+                  id="tel"
+                  name="user-tel"
+                  type="tel"
+                  autofocus
+                />
+                <svg class="modal-icon" width="18" height="18">
+                  <use href="./images/icons.svg#icon-profile2"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="input-height">
+              <label class="modal-label" for="email">Електронна пошта</label>
+              <div class="input-wrap">
+                <input
+                  class="modal-input"
+                  id="email"
+                  name="user-email"
+                  type="email"
+                  autofocus
+                />
+                <svg class="modal-icon" width="18" height="18">
+                  <use href="./images/icons.svg#icon-profile3"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="comment-height">
+              <label for="comment" class="modal-label">Коментар</label>
+              <textarea
+                class="modal-textarea"
+                name="user-comment"
+                id="comment"
+                placeholder="Введіть текст"
+              ></textarea>
+            </div>
+          </div>
+          <div class="modal-field">
+            <input
+              class="modal-checkbox is-hidden"
+              id="accept"
+              name="user-accept"
+              type="checkbox"
+              value="true"
+            />
+            <label for="accept" class="policy-text">
+              Я приймаю положення та умови
+              <a class="policy-link" href="">Політика конфіденційності</a></label
             >
+
+            <button class="modal-submit" type="submit">Надіслати</button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
