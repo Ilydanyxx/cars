@@ -1367,3 +1367,18 @@ footer {
   padding-right: 16px;
   font-size: 24px;
 }
+.modal-center {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-name-text {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
